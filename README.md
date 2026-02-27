@@ -1,5 +1,5 @@
 # CTI Investigation: macOS "ClickFix" Phishing Campaign
-**Date:** February 2026  
+**Date:** February 27th, 2026  
 **Analyst:** Brandon Jones  
 **Focus:** Infrastructure Mapping & macOS Malware Delivery
 
@@ -18,6 +18,8 @@ This report details an investigation into the **ClickFix** social engineering ca
 | **Payload Subdomain** | `raw.homabrews.org` |
 | **Hosting IP** | `5.255.123.244` |
 | **Service (Port 443)** | nginx (Reverse Proxy) |
+
+![macOS Malware Blocked Alert](images/malware_detected.png)
 
 ## 4. Operational Observations
 During the investigation, macOS Sequoia's native security features successfully intercepted a paste event containing malicious strings associated with this campaign. This validates the effectiveness of Apple's latest XProtect signatures against 2026 infostealer variants.
