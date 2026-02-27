@@ -1,0 +1,5 @@
+### IOCs - homabrews.org Campaign (Feb 2026)
+Domain: homabrews.org
+Subdomain (C2/Payload): raw.homabrews.org
+IP Address: 5.255.123.244
+Server Headers: nginx
